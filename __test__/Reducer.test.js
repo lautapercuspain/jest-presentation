@@ -33,7 +33,7 @@ it('Should handle success repo action', () => {
     expect(repos(initialState, {type:LOAD_REPOS_SUCCESS, data:[]})).toEqual(expectedState);
 });
 
-it('Should handle select repo action', () => {
+it('Should handle select repo action', () => { 
     const expectedState = {
       ...initialState,
       selected: true
