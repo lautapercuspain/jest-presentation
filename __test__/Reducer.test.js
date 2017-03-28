@@ -20,7 +20,7 @@ it('Should handle failure repo action', () => {
       isLoading: false,
       error:'Error'
     };
-    expect(repos(initialState, {error: 'Error', type:LOAD_REPOS_FAILURE})).toEqual(expectedState);
+    expect(repos(initialState, {error: 'Error', type:LOAD_REPOS_FAILURE})).toMatchSnapshot();
 });
 
 it('Should handle success repo action', () => {
