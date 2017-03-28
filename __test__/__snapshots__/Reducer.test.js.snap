@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should handle load repo action  1`] = `
+Object {
+  "error": null,
+  "isLoading": true,
+  "loaded": false,
+  "repos": null,
+  "selected": null,
+}
+`;
+
+exports[`Should test my reducer 1`] = `
+Object {
+  "error": null,
+  "isLoading": false,
+  "loaded": false,
+  "repos": null,
+  "selected": null,
+}
+`;
