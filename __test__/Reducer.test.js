@@ -40,3 +40,11 @@ it('Should handle select repo action', () => {
     };
     expect(repos(initialState, {type:SELECT_REPO})).toEqual(expectedState);
 });
+
+it('Should handle default state in the reducer', () => { 
+    const expectedState = {
+      ...initialState,
+      selected: true
+    };
+    expect(repos(initialState, {type:undefined})).toEqual(initialState);
+});
