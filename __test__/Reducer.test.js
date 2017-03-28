@@ -20,7 +20,7 @@ it('Should handle failure repo action', () => {
       isLoading: false,
       error:'Error'
     };
-    expect(repos(initialState, {error: 'Error', type:LOAD_REPOS_FAILURE})).toEqual(expectedState);
+    expect(repos(initialState, {error: 'Error', type:LOAD_REPOS_FAILURE})).toMatchSnapshot();
 });
 
 it('Should handle success repo action', () => {
@@ -39,4 +39,12 @@ it('Should handle select repo action', () => {
       selected: true
     };
     expect(repos(initialState, {type:SELECT_REPO})).toEqual(expectedState);
+});
+
+it('Should handle default state in the reducer', () => { 
+    const expectedState = {
+      ...initialState,
+      selected: true
+    };
+    expect(repos(initialState, {type:undefined})).toEqual(initialState);
 });

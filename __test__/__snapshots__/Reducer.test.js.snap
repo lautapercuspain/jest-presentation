@@ -1,5 +1,15 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`Should handle failure repo action 1`] = `
+Object {
+  "error": "Error",
+  "isLoading": false,
+  "loaded": false,
+  "repos": null,
+  "selected": null,
+}
+`;
+
 exports[`Should handle load repo action  1`] = `
 Object {
   "error": null,
