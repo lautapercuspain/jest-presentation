@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Should handle failure repo action 1`] = `
+exports[`It has the reducer tests Should handle failure repo action 1`] = `
 Object {
   "error": "Error",
   "isLoading": false,
@@ -10,7 +10,7 @@ Object {
 }
 `;
 
-exports[`Should handle load repo action  1`] = `
+exports[`It has the reducer tests Should handle load repo action  1`] = `
 Object {
   "error": null,
   "isLoading": true,
@@ -20,7 +20,17 @@ Object {
 }
 `;
 
-exports[`Should test my reducer 1`] = `
+exports[`It has the reducer tests Should handle success repo action 1`] = `
+Object {
+  "error": null,
+  "isLoading": false,
+  "loaded": true,
+  "repos": Array [],
+  "selected": null,
+}
+`;
+
+exports[`It has the reducer tests Should test the initial state if the reducer 1`] = `
 Object {
   "error": null,
   "isLoading": false,
