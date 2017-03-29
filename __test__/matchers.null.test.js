@@ -1,4 +1,4 @@
-describe('my beverage', () => {
+describe.only('my beverage', () => {
  
   it('null', () => {
     const n = null;

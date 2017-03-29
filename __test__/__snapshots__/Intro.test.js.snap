@@ -1,6 +1,26 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`It renders a group of tests renders correctly 1`] = `
+exports[`It renders a group of tests renders the ActivityIndicator component 1`] = `
+<ActivityIndicator
+  animating={true}
+  color="#999999"
+  hidesWhenStopped={true}
+  size="small"
+/>
+`;
+
+exports[`It renders a group of tests renders the Image component 1`] = `
+<Image
+  style={
+    Object {
+      "height": 240,
+      "width": 320,
+    }
+  }
+/>
+`;
+
+exports[`It renders a group of tests renders the Intro component 1`] = `
 <View
   style={
     Object {
@@ -42,26 +62,6 @@ exports[`It renders a group of tests renders correctly 1`] = `
 </View>
 `;
 
-exports[`It renders a group of tests renders the ActivityIndicator component 1`] = `
-<ActivityIndicator
-  animating={true}
-  color="#999999"
-  hidesWhenStopped={true}
-  size="small"
-/>
-`;
-
-exports[`It renders a group of tests renders the Image component 1`] = `
-<Image
-  style={
-    Object {
-      "height": 240,
-      "width": 320,
-    }
-  }
-/>
-`;
-
 exports[`It renders a group of tests renders the ListView component 1`] = `
 <ScrollView
   dataSource={
@@ -79,6 +79,7 @@ exports[`It renders a group of tests renders the ListView component 1`] = `
   onLayout={[Function]}
   onScroll={[Function]}
   pageSize={1}
+  pagingEnabled={true}
   removeClippedSubviews={true}
   renderRow={[Function]}
   scrollEventThrottle={50}
