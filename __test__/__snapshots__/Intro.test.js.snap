@@ -2,7 +2,7 @@
 
 exports[`It renders a group of tests renders the ActivityIndicator component 1`] = `
 <ActivityIndicator
-  animating={true}
+  animating={false}
   color="#999999"
   hidesWhenStopped={true}
   size="small"
