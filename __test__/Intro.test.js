@@ -21,7 +21,7 @@ describe('It renders a group of tests', () => {
 
     // These serve as integration tests for the jest-react-native preset.
     it('renders the ActivityIndicator component', () => {
-        const tree = renderer.create(<ActivityIndicator animating={true} size="small" />).toJSON();
+        const tree = renderer.create(<ActivityIndicator animating={false} size="small" />).toJSON();
         expect(tree).toMatchSnapshot();
     });
 
