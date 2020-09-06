@@ -1,8 +1,16 @@
 # jest-presentation
-Talk of Jest, the testing platform.
+This is the example repository for the Jest talk I did on 2017
 
-1- Clone repo.
-2- Yarn or npm i , to install all dependencies. 
-3- Open a terminal in the root path and execute yarn test or npm test.
-4- Jest will run in watch mode by default.
-5- Start playing with Jest!
+# CDD with Jest
+https://medium.com/comunidad-js/jest-and-the-component-driven-development
+
+
+
+
+Follow this instructions to get started
+
+- Clone this repo.
+- CD to the path and execute Yarn or NPM install, to install all dependencies. 
+- execute `yarn t` or `NPM t` to execute the Jest CLI.
+- Choose the option `a` to run all tests
+- Enjoy TDD with Jest and React!
