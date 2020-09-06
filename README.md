@@ -1,4 +1,4 @@
-# jest-presentation
+# Jest talk and demo - 2017
 This is the example repository for the Jest talk I did on 2017
 
 # CDD with Jest
